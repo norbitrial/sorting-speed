@@ -4,9 +4,10 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ChartComponent } from './chart/chart.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ChartComponent],
   imports: [BrowserModule, AppRoutingModule, MDBBootstrapModule.forRoot()],
   providers: [],
   bootstrap: [AppComponent],
