@@ -1,4 +1,6 @@
-# SortingSpeed
+# Sorting Speed Displayer 📊
+
+This tool represents different sorting algorithms' speed and steps with charts. Live URL: [https://sorting-speed.szabonorbert.me/](https://sorting-speed.szabonorbert.me/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
