@@ -11,6 +11,12 @@ jobs:
           steps:
             - run: npm install
             - run: npm test
+            - run: sudo npm -g @angular/cli
+            - run: ng build --prod
+            - run: firebase use sorting-speed
+            - run: firebase deploy $PUBLISH_TOKEN
+# https://stackoverflow.com/questions/45881228/how-to-add-the-chrome-binary-to-run-e-g-karma-tests-on-headless-chrome-on-a-ci
+# https://github.com/karma-runner/karma-chrome-launcher#headless-chrome-with-puppeteer
 workflows:
   build-and-test:
     jobs:
