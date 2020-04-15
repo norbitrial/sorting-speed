@@ -5,9 +5,18 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChartComponent } from './chart/chart.component';
+import { AlgorithmSelectorComponent } from './algorithm-selector/algorithm-selector.component';
+import { ArraySelectorComponent } from './array-selector/array-selector.component';
+import { SpeedSelectorComponent } from './speed-selector/speed-selector.component';
 
 @NgModule({
-  declarations: [AppComponent, ChartComponent],
+  declarations: [
+    AppComponent,
+    ChartComponent,
+    AlgorithmSelectorComponent,
+    ArraySelectorComponent,
+    SpeedSelectorComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule, MDBBootstrapModule.forRoot()],
   providers: [],
   bootstrap: [AppComponent],

@@ -4,6 +4,40 @@
   📊
 </h2>
 
+<form class="text-center border border-light p-5" action="#!">
+  <div class="d-flex justify-content-around">
+    <div>
+      <div>
+        <app-algorithm-selector></app-algorithm-selector>
+      </div>
+    </div>
+    <div>
+      <app-speed-selector></app-speed-selector>
+    </div>
+  </div>
+
+  <app-array-selector></app-array-selector>
+
+  <button class="btn btn-info btn-block my-4" type="submit">
+    Start Sorting
+  </button>
+</form>
+
 <app-chart></app-chart>
+
+<!--
+
+
+<a href="#" class="mx-2" role="button"
+  ><i class="fab fa-facebook-f light-blue-text"></i
+></a>
+<a href="#" class="mx-2" role="button"
+  ><i class="fab fa-twitter light-blue-text"></i
+></a>
+<a href="#" class="mx-2" role="button"
+  ><i class="fab fa-linkedin-in light-blue-text"></i
+></a>
+
+-->
 
 <router-outlet></router-outlet>
