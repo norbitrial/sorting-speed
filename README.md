@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/norbitrial/sorting-speed.svg?style=shield&circle-token=3e1a66f473b35f7803a2758d258514bef0017731)](https://app.circleci.com/pipelines/github/norbitrial/sorting-speed?branch=master)
+
 # Sorting Speed Displayer 📊
 
 This tool represents different sorting algorithms' speed and steps with charts. Live URL: [https://sorting-speed.szabonorbert.me/](https://sorting-speed.szabonorbert.me/)
